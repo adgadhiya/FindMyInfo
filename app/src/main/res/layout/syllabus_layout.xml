@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="#f8f8ff"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/first_sessional"
+            android:textColor="#2f4f4f"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Syllabus"
+                android:background="#f5f5f5"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:id="@+id/first_sessional1" />
+
+        </android.support.v7.widget.CardView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/second_sessional"
+            android:textStyle="bold"
+            android:textColor="#2f4f4f"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#f5f5f5"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:text="Syllabus"
+                android:id="@+id/second_sessional1" />
+
+        </android.support.v7.widget.CardView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#2f4f4f"
+            android:text="@string/third_sessional"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#f5f5f5"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:text="Syllabus"
+                android:id="@+id/third_sessional1" />
+
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#2f4f4f"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:gravity="center"
+            android:text="Reference"
+            android:textStyle="bold"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reference"
+                android:background="#f5f5f5"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:id="@+id/reference_book1" />
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

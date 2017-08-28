@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+<PreferenceCategory android:title="Selection Dialog">
+    <ListPreference
+        android:dialogTitle="I'm Studying "
+        android:key="field_pref"
+        android:selectable="true"
+        android:title="Field Preference"
+        android:summary="Select Your Field"
+        android:entryValues="@array/field_name_value1"
+        android:entries="@array/field_name_entries" />
+
+    <ListPreference
+        android:dialogTitle="I'm in "
+        android:selectable="true"
+        android:key="semester_pref"
+        android:title="Semester Preference"
+        android:summary="Select Your Semester"
+        android:entryValues="@array/sem_num_entries"
+        android:entries="@array/sem_num_values" />
+
+</PreferenceCategory>
+
+</PreferenceScreen>

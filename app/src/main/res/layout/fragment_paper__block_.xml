@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/paper_background"
+    tools:context=".Papers.Paper_Block_Frag">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:id="@+id/tv_paper_block"/>
+
+    </ScrollView>
+
+</FrameLayout>

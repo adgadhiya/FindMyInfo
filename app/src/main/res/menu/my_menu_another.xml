@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/my_group" android:checkableBehavior="single">
+        <item android:id="@+id/speaker"
+            android:title="2015"/>
+
+        <item android:id="@+id/find_way"
+            android:title="2014"/>
+
+        <item android:id="@+id/detail"
+            android:title="2013"/>
+
+        <item android:title="2013"
+            android:id="@+id/send_email"
+            android:checkable="true" />
+
+        <item android:title="2012"
+            android:id="@+id/charge"
+            android:checkable="true" />
+    </group>
+
+</menu>

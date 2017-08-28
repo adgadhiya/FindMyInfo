@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/paper_background"
+    tools:context=".Papers.Paper_second_phase_Frag">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:text="Second Fragment"
+        android:id="@+id/tv_paper_phase_two"/>
+
+    </ScrollView>
+</FrameLayout>

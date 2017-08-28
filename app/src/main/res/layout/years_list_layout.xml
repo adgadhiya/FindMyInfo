@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="sbviobv"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center|left"
+        android:id="@+id/tv_years"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:background="@drawable/years_item_select"
+        />
+
+</LinearLayout>

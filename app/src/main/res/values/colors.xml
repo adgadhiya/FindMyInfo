@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#228b22</color>
+    <color name="colorPrimaryDark">#008000</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="syllabus_state_pressed">#A092BE</color>
+    <color name="syllabus_state_focused">#8092BE</color>
+    <color name="syllabus">#7092BE</color>
+
+    <color name="papers_state_pressed">#ED4C24</color>
+    <color name="papers_state_focused">#de0c04</color>
+    <color name="papers">#ED1C24</color>
+
+    <color name="result_state_pressed">#44b7f0</color>
+    <color name="result_state_focused">#0084E8</color>
+    <color name="result">#00A2E8</color>
+
+    <color name="holidays_state_pressed">#33c25d</color>
+    <color name="holidays_state_focused">#10a030</color>
+    <color name="holidays">#22B14C</color>
+
+    <color name="schedule_state_pressed">#FFaF57</color>
+    <color name="schedule_state_focused">#F06F07</color>
+    <color name="schedule">#FF7F27</color>
+
+    <color name="years_back_ground">#f5f5f5</color>
+
+    <color name="paper_background">#F8F8FF</color>
+
+</resources>

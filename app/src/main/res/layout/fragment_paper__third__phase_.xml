@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Papers.Paper_Third_Phase_Frag"
+    android:background="@color/paper_background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment"
+        android:id="@+id/tv_paper_phase_three"
+        android:textAppearance="?android:textAppearanceMedium"/>
+
+    </ScrollView>
+
+</FrameLayout>
